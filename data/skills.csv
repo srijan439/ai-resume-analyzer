@@ -1,0 +1,57 @@
+skill,category
+python,programming
+javascript,programming
+typescript,programming
+java,programming
+c++,programming
+c#,programming
+sql,programming
+html,programming
+css,programming
+react,programming
+angular,programming
+vue,programming
+node.js,programming
+django,programming
+flask,programming
+fastapi,programming
+aws,cloud
+azure,cloud
+gcp,cloud
+ec2,cloud
+s3,cloud
+lambda,cloud
+docker,devops
+kubernetes,devops
+jenkins,devops
+git,devops
+github,devops
+gitlab,devops
+ci/cd,devops
+machine learning,ai/ml
+deep learning,ai/ml
+tensorflow,ai/ml
+pytorch,ai/ml
+pandas,ai/ml
+numpy,ai/ml
+scikit-learn,ai/ml
+nlp,ai/ml
+computer vision,ai/ml
+leadership,soft skills
+communication,soft skills
+teamwork,soft skills
+problem solving,soft skills
+time management,soft skills
+analytical thinking,soft skills
+collaboration,soft skills
+agile,soft skills
+scrum,soft skills
+kanban,soft skills
+rest api,programming
+graphql,programming
+mongodb,databases
+postgresql,databases
+mysql,databases
+redis,databases
+oracle,databases
+sqlite,databases

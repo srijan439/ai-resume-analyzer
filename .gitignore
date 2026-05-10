@@ -1,0 +1,131 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.production
+.env.staging
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Uploaded Files / User Data
+# =========================
+uploads/
+*.pdf
+*.docx
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+hypothesis/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# Database Files
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Terraform
+# =========================
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# =========================
+# Kubernetes
+# =========================
+kubeconfig.yaml
+
+# =========================
+# Secrets
+# =========================
+secrets.yaml
+secrets.json
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+.tmp/
+.cache/
+
+# =========================
+# Type Checkers
+# =========================
+.mypy_cache/
+.pyre/
+
+# =========================
+# Misc
+# =========================
+.python-version
