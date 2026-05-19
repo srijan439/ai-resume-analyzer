@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: ai-resume-deployment
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: ai-resume-app
+
+  template:
+    metadata:
+      labels:
+        app: ai-resume-app
+
+    spec:
+      containers:
+      - name: ai-resume-container
+        image: ai-resume-analyzer
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 8501
